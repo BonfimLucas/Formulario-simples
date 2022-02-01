@@ -1,0 +1,103 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.Cadastre{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 100px;
+   color: rgb(3, 88, 3);
+    margin-bottom: -50px;
+}
+
+.logo{
+    width: 50px;
+    margin-left: 50px;
+}
+
+.head{
+    background-color: grey;
+    position: relative;
+
+}
+
+
+.lista ul {
+    list-style: none;
+   
+}
+
+.lista li {
+    display: inline;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.lista{
+    position: absolute;
+   right: 50px;
+    bottom: 25px;
+    
+}
+.subtitulo{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: rgb(255, 255, 0);
+   }
+
+.form{
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: black;
+    margin-right: 36%;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+fieldset{
+    border: 0;
+}
+
+.preencha{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.botão{
+    font-size: 1.2em;
+    background-color: rgb(12, 20, 12);
+    border: 0;
+    margin-bottom: 1em;
+    color: floralwhite;
+    padding: 0.2em;
+    box-shadow: 2px 2px 2px rgba(3, 27, 7, 0.2);
+    text-shadow: 1px 1px 1px rgba(2, 14, 1, 0.5) ;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50;
+    transform: translate(-50%, -50%);   
+}
+
+.botão:hover{
+    background-color: yellow;
+}
+
+.check{
+    display: inline-block;
+}
+
+.campo input[type="titulo"], .campo input[type="Email"] .campo textarea .campo select{
+    padding: 0.2em;
+    border: 1px solid yellow;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0, 0.2 );
+    display: block;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+}   

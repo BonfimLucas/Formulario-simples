@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula css</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+    <header class="head">
+    <nav class="lista">
+        <ul>
+            <li>Login</li> 
+            <li>Perguntas Frequentes</li> 
+            <li>Legislação</li> 
+        </ul>
+    </nav>
+    <img class="logo" src="logo.png" alt="logo" >
+    <h1 class="Cadastre"><strong>CADASTRE JÁ</strong></h1>
+        <p class="subtitulo">CADASTRO PARA VACINAÇÃO</p>
+    </header>
+<body>
+  <p class="preencha"><strong>Preencha seus dados.</strong></p>
+    <FORM class="form">
+        <FIEldset>
+            <div>
+                <label><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div>
+                <label><strong>Sobrenome</strong></label>
+                <input type="text" name="sobrenome" id="nome" required>
+            </div>
+            <div>
+                <label><strong>Email</strong></label>
+                <input type="text" name="email" id="email" required>
+            </div>
+            <div>
+                <label><strong>Cidade no qual reside:</strong></label>
+                <select id="cidade">
+                    <option selected disabled value="">Selecione</option>
+                    <option>São Paulo</option>
+                    <OPTIon>Barueri</OPTIon>
+                    <option>Osasco</option>
+                    <option>Diadema</option>
+                    <option>Santo Andre</option>
+                </select>
+            </div>
+        </div>
+
+        <fieldset class="grupo">
+        <div id="check">
+            <br><label for="Selecione sua faixa etária">Selecione sua faixa etária</label></br>
+            <input type="checkbox" id="10-12" name="10-12" value="10-12">
+            <label for="10-12">10-12</label>
+            <input type="checkbox" name="13-16" id="13-16" value="13-16">
+            <label for="13-16">13-16</label>
+            <input type="checkbox" name="17-19" id="17-19" value="17-20">
+            <label for="17-20">17-20</label>  
+        </div>
+    
+    <div class="campo">
+       <br> <label>Deixe abaixo o diagnostico de alguma comorbidade</label> </br>
+        <textarea name="comorbidade" id="comorbidade" style="width: 26em;" rows="6"></textarea>
+    </div>
+    <button class="botão" type="submit">Enviar</button>
+
+    </FORM>    
+</body>
+</html>
